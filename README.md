@@ -12,7 +12,7 @@ The Titanic dataset is in csv format which is downloaded from Kaggle.
 ## [Result of the project](results/titanic.pdf)
 The results is a pdf document, with written analysis and graphs.
 
-## Additional documents
+## [Additional documents](doc)
 if any
 
 ## About this project

@@ -6,7 +6,7 @@ In this project, there are 3 parts: script, titanic dataset and results.
 ## Source files
 The data analysis script is in jupyter notebook format.  
 
-## Data related to the project
+## Data related to the project(data/titanic.csv)
 The Titanic dataset is in csv format which is downloaded from Kaggle.
 
 ## Result of the project

@@ -1,1 +1,14 @@
+# Data analysis of Titanic dataset
+This report is about analysis of Titanic dataset.  There are 891 observations, with 12 variables in the dataset.   We will analyze whether the class, gender and age are associated with the survival rate.
+
+Pclass VS Survival rate
+|       |Count|No. of survived|Survival rate|
+|Class 1| 216 |       136     |     0.63    |
+|Class 2| 184 |        87     |     0.47    |
+|Class 3| 491 |       119     |     0.24    |
+
+
+The number of Class 1, Class 2 and Class 3 passengers is  216, 184 and 491 respectively.
+The survival rate of of Class 1, Class 2 and Class 3 is 0.63, 0.47 and 0.24 respectively.
+Class 1 has higher survival rate than the other 2 classes.
 

@@ -76,3 +76,27 @@ table = pd.pivot_table(df,index=["Sex","Pclass"],values=["Age", "Survived"],aggf
 table
 ##### survival rate in respective to the sex and class - barchart
 sns.catplot(x="Sex", y="Survived", hue="Pclass", kind="bar", data=df)
+
+[titanic.csv](https://github.com/LydiaChau/titanic/files/8229637/titanic.csv)
+
+## Results
+This report is about analysis of Titanic dataset.  There are 891 observations, with 12 variables in the dataset.   We will analyze whether the class, gender and age are associated with the survival rate.
+
+##### Pclass VS Survival rate
+The number of passengers in Class 1, Class 2 and Class 3 is 216, 184 and 491 respectively.  The survival rate of Class 1, Class 2 and Class 3 is 0.63, 0.47 and 0.24 respectively.
+
+![image](https://user-images.githubusercontent.com/97926477/157814626-02abdb9f-4198-4e56-9c58-1c3704847804.png)
+
+From the statistics showed, Class 1 has higher survival rate than Class 2 and Class 3.  In Titanic, Class 1 is the upper class, Class 2 is middle class and Class 3 is low class.
+
+##### Sex VS Survival rate
+There are 314 females and 577 males.  The survival rate of female and male is 0.74 and 0.19 respectively.  It shows that female has a higher survival rate than male.
+
+![image](https://user-images.githubusercontent.com/97926477/157815950-b5a83c1e-c972-4d6b-846f-92bc29d0b065.png)
+
+##### Age VS Survival rate
+The average age of survived and not survived is 30.63 and 28.34 respecitvely.  Based on the age information we cannot conclude the age has large association with the survival rate.
+
+![image](https://user-images.githubusercontent.com/97926477/157816103-b21f4478-3915-4438-ba86-e7441736a151.png)
+
+[Titanic.docx](https://github.com/LydiaChau/titanic/files/8229694/Titanic.docx)
